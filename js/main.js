@@ -8,7 +8,9 @@ const inputHeight = document.querySelector('#height')
 
 form.onsubmit = handleSubmit
 Modal.buttonClose.addEventListener("click", close)
-Modal.btnCloseAlert.addEventListener("click", close) //TA ERRASDO
+
+inputWeight.oninput = () => AlertError.close()
+inputHeight.oninput = () => AlertError.close()
 
 function handleSubmit(event) {
   event.preventDefault()

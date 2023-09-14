@@ -159,20 +159,7 @@ form button:hover {
   opacity: 1;
   transform: translateY(0);
 }
-.alert-error button {
-  background: none;
-  border: none;
-  margin: 2px;
-  /* display: flex; */
-  align-items: center;
-  jsutify-content: center;
-  position: absolute;
-  /* top: 1.6rem;
-  right: 1.6rem; */
 
-  cursor: pointer;
-  transition: transform .3s;
-}
 .alert-error {
   position: absolute;
   background-color: var(--bg-error);
